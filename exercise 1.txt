@@ -1,11 +1,4 @@
 no.1  Hukum newton2
--aloritma
-	-mulai
-	-tentukan nilai a
-	-tentukan nilai m
-	-hitung nilai m dikalikan a
-	-hasil perhitungan m dikalikan a
-	-selesai
 
 -pseudocode
     set sl dengan nilai berapapun
@@ -14,12 +7,6 @@ no.1  Hukum newton2
 
     hitung = m dikalikan a
     set sl berisi nilai dari hasil hitung 
-
--Sintax
-function sl(m, a) {
-  return m*a
-}
-console.log(sl (60,2))
 
 
 no.2 tahun kabisat
@@ -34,22 +21,21 @@ no.2 tahun kabisat
     tampil tahun adalah bukan kabisat
 
 no.3 
-    store laundry dengan 0
-    while laudry < 20
+    store laundry dengan 1
+    while laudry <= 20
     tambah laudry dengan 1
 
     tampil hasil laundry
 
 
 no.4
-    store siswa dengan 0 
-    while siswa < 40 
+    store siswa dengan 1 
+    while siswa <= 40 
     tambah siswa dengan 1 
     tampil siswa
 
-        STORE "kuku pendek" with "siswa mod 2 equal to 0"
-        STORE "kuku panjang" with "siswa mod 2 not equal to 0"
-        IF "siswa" mod 2 equal to 0
+       
+        IF siswa berkuku bersih
         DISPLAY "mendapat pujian dari guru"
         ELSE
-        DISPLAY "mendapat hukuam dari guru"
+        DISPLAY "mendapat hukuman dari guru"
